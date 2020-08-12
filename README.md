@@ -19,7 +19,7 @@ To get the frontend running locally via docker:
 docker build -t custom/tyrell:1.0 .
 ```
 
-4. If the build for the Docker image runs successfully, you should be able to list your images with the following command:
+4. If the build for the Docker image runs successfully, you should be able to list your image with the following command:
 
 ```
 docker images
@@ -37,7 +37,7 @@ docker run --name my-react-app -p 4100:3000 -d custom/tyrell:1.0
 
 ## Source code explanation
 
-The algorithm to distribute `52` cards to `n` number of peoples are done in `src/containers/Home.index.js` file.
+The algorithm to distribute `52` cards to `n` number of peoples are done in `src/containers/Home/index.js` file.
 
 1. To initialize deck of 52 cards
 
