@@ -23,19 +23,17 @@ docker build -t custom/tyrell:1.0 .
 
 ```
 docker images
-
 ```
 5. Use the following command to run the docker image at port 4100:
 
 ```
 docker run --name my-react-app -p 4100:3000 -d custom/tyrell:1.0
-
 ```
 
-6. You should be able to view the webpage at http://localhost:4100. Alternatively, you can view a live demo over at https://tyrell-47488.web.app/.
+6. You should be able to view the webpage at http://localhost:4100 after running the aforementioned command. 
 
+7. Alternatively, you can view a live demo at https://tyrell-47488.web.app/.
 
-Alternatively, 
 
 ## Source code explanation
 
@@ -101,3 +99,9 @@ The algorithm to distribute `52` cards to `n` number of peoples are done in `src
     }
 
 ```
+## Screenshots
+Input Page
+
+![Page 1](https://i.imgur.com/D8BDGrf.png)
+
+
